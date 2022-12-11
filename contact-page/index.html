@@ -247,7 +247,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			.mzx-site-header-bar {
 	display: none !important;
 }
-.mzb-advertisement-250x250,.mzb-advertisement-970x90 {
+.mzb-advertisement {
 	display: none;
 }
 .mzb-section-3ef2262c {
@@ -269,15 +269,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .info-table table,.info-table tbody,.info-table tr,.info-table td {
 	border: 0;
 }
-.mzx-footer-col--1,.mzx-footer-col--2 {
-	width: calc(50% - 2.5em) !important;
-}
-.mzx-footer-col--3 {
-	width: 0 !important;
-	display: none;
-}
 .post-author img {
 	display: none;
+}
+.mzx-footer-col--3 {
+	font-size: 96%;
 }		</style>
 				<style id="magazine-blocks-post-441-css">
 			.mzb-section-5f4e6be2>.mzb-container{max-width:1170px}.mzb-section-5f4e6be2 .mzb-container .mzb-section-inner .mzb-column,.mzb-section-5f4e6be2 .mzb-container-fluid .mzb-section-inner .mzb-column,.mzb-section-79663b2e .mzb-container .mzb-section-inner .mzb-column,.mzb-section-79663b2e .mzb-container-fluid .mzb-section-inner .mzb-column,.mzb-section-93aed6ac .mzb-container .mzb-section-inner .mzb-column,.mzb-section-93aed6ac .mzb-container-fluid .mzb-section-inner .mzb-column{padding-left:30px}.mzb-section-5f4e6be2 .mzb-container .mzb-section-inner,.mzb-section-5f4e6be2 .mzb-container-fluid .mzb-section-inner,.mzb-section-79663b2e .mzb-container .mzb-section-inner,.mzb-section-79663b2e .mzb-container-fluid .mzb-section-inner,.mzb-section-93aed6ac .mzb-container .mzb-section-inner,.mzb-section-93aed6ac .mzb-container-fluid .mzb-section-inner{margin-left:-30px}.mzb-section-5f4e6be2{padding:0 15px}.mzb-column-34beac7f{width:25%}@media (max-width:62em){.mzb-column-34beac7f{width:50%;margin:0 0 28px}}@media (max-width:48em){.mzb-column-34beac7f{width:100%}}.mzb-column-aa8c4db9{width:25%}@media (max-width:62em){.mzb-column-aa8c4db9{width:50%;margin:0 0 28px}}@media (max-width:48em){.mzb-column-aa8c4db9{width:100%}}.mzb-column-34beac7f>.mzb-column-inner,.mzb-column-94b0aa70>.mzb-column-inner,.mzb-column-9a503c88>.mzb-column-inner,.mzb-column-aa8c4db9>.mzb-column-inner{box-shadow:0 10px 30px 0 rgba(0,0,0,.05);background-color:#fff;border-radius:5px 5px 5px 5px;padding:30px 35px}.mzb-column-94b0aa70{width:25%}@media (max-width:62em){.mzb-column-94b0aa70{width:50%}}@media (max-width:48em){.mzb-column-94b0aa70{width:100%;margin:0 0 28px}}.mzb-column-9a503c88{width:25%}@media (max-width:62em){.mzb-column-9a503c88{width:50%}}@media (max-width:48em){.mzb-column-9a503c88{width:100%}}.mzb-section-93aed6ac>.mzb-container{max-width:1170px}.mzb-section-93aed6ac{margin:50px 0;padding:0 15px}.mzb-column-a7ca0c19{width:100%}.mzb-column-a7ca0c19>.mzb-column-inner{background-color:#fff;padding:10px 10px 5px}@media (max-width:62em){.mzb-column-a7ca0c19{width:100%}}@media (max-width:48em){.mzb-column-a7ca0c19{width:100%}}.mzb-section-79663b2e>.mzb-container{max-width:1170px}.mzb-section-79663b2e{padding:0 15px}.mzb-column-3fe0198f{width:25%}@media (max-width:62em){.mzb-column-3fe0198f{width:50%;margin:0 0 28px}}@media (max-width:48em){.mzb-column-3fe0198f{width:100%}}.mzb-column-5e2e1001{width:25%}@media (max-width:62em){.mzb-column-5e2e1001{width:50%;margin:0 0 28px}}@media (max-width:48em){.mzb-column-5e2e1001{width:100%}}.mzb-column-032ebe63>.mzb-column-inner,.mzb-column-3fe0198f>.mzb-column-inner,.mzb-column-5e2e1001>.mzb-column-inner,.mzb-column-e3ab3ea0>.mzb-column-inner{box-shadow:0 10px 30px 0 rgba(0,0,0,.05);background-color:#fff;border-radius:5px 5px 5px 5px;padding:30px 35px}.mzb-column-e3ab3ea0{width:25%}@media (max-width:62em){.mzb-column-e3ab3ea0{width:50%;margin:0}}@media (max-width:48em){.mzb-column-e3ab3ea0{width:100%;margin:0 0 28px}}.mzb-column-032ebe63{width:25%}@media (max-width:62em){.mzb-column-032ebe63{width:50%}}@media (max-width:48em){.mzb-column-032ebe63{width:100%}}		</style>
@@ -583,26 +579,14 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 					<div class="mzx-footer-cols">
 			<div class="mzx-container mzx-grid-cols--3">
 											<div class="mzx-footer-col mzx-footer-col--1">
-																	<section id="block-63" class="widget widget_block">
-<div class="is-layout-flex wp-container-14 wp-block-columns">
-<div class="is-layout-flow wp-block-column">
+																	<section id="block-72" class="widget widget_block widget_media_image">
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="287" height="100" src="https://noblesnobelium.github.io/wp-content/uploads/2022/09/cropped-nobelium-1.png" alt="" class="wp-image-752"/></figure>
-</div>
-
-
-
-<div class="is-layout-flow wp-block-column">
-<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://noblesnobelium.github.io/wp-content/uploads/2022/12/nobles_white.png" alt="" class="wp-image-863" width="90" height="90" srcset="https://noblesnobelium.github.io/wp-content/uploads/2022/12/nobles_white.png 902w, https://noblesnobelium.github.io/wp-content/uploads/2022/12/nobles_white-297x300.png 297w, https://noblesnobelium.github.io/wp-content/uploads/2022/12/nobles_white-150x150.png 150w, https://noblesnobelium.github.io/wp-content/uploads/2022/12/nobles_white-768x777.png 768w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
-</div>
-</div>
 </section>															</div>
 														<div class="mzx-footer-col mzx-footer-col--2">
-																	<section id="block-61" class="widget widget_block widget_text">
-<p class="has-text-align-right">Contact:<br>Lindsey Tonge, Faculty Advisor (ltonge0f@nobles.edu)<br>Om Paithankar, Editor-in-Chief (opaithankar23@nobles.edu)<br>Angie Feng, Content Manager (afeng24@nobles.edu)</p>
-</section>															</div>
+															</div>
 														<div class="mzx-footer-col mzx-footer-col--3">
-																	<section id="block-53" class="widget widget_block widget_text">
-<p></p>
+																	<section id="block-65" class="widget widget_block widget_text">
+<p class="has-text-align-right">Contact:<br>Lindsey Tonge, Faculty Advisor (ltonge0f@nobles.edu)<br>Om Paithankar, Editor-in-Chief (opaithankar23@nobles.edu)<br>Angie Feng, Content Manager (afeng24@nobles.edu)</p>
 </section>															</div>
 										</div>
 		</div><!-- .mzx-footer-cols -->
@@ -625,9 +609,6 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			
 <div id="mzx-secondary-nav-overlay" class="mzx-secondary-nav-overlay"></div>
 
-<style id='core-block-supports-inline-css'>
-.wp-block-columns.wp-container-14{flex-wrap:nowrap;}
-</style>
 <script src='https://noblesnobelium.github.io/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
 <script src='https://noblesnobelium.github.io/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
 <script src='https://noblesnobelium.github.io/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca' id='wp-dom-ready-js'></script>
